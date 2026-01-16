@@ -1,0 +1,63 @@
+/* Estilo Geral */
+:root {
+    --main-color: #8C2C2E;
+    --complementar-color: #EAEAE5;
+    --white-text: #FFF6EB;
+    --black-text: #674930;
+}
+.btn-reserva {
+    display: inline-flex; /* ou flex */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--complementar-color);
+    color: var(--main-color);
+    text-decoration: underline;
+
+    padding: 10px 45px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    font-weight: bolder;
+    line-height: 1.1;
+
+    transition: 0.2s;
+}
+
+.big {
+    transform: scale(1.8);
+}
+
+/* Header */
+
+/* Main */
+main {
+    background-color: var(--complementar-color);
+}
+main > section {
+    background-color: white;
+    max-width: 1600px;
+    margin: auto;
+
+    padding: 40px;
+}
+/* Presentation */
+m
+/* Exibition images */
+section.exibition {
+    padding: 0;
+}
+.room>img {
+    display: block;
+    width: 100%;
+}
+
+/* Estilo do Cabeçalho */
+footer {
+    background-color: var(--main-color);
+    color: white;
+
+    padding: 25px;
+    text-align: center;
+
+}
